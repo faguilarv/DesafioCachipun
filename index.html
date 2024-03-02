@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafioCachipun</title>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./assets/css/style.css" </head>
+
+<body>
+    <h1>Piedra | Papel | Tijera</h1>
+    <h3>Es hora del Chachipún</h3>
+    <div id="arena" class="arena">
+        <div id="img-jugador-elige" class="battle-box">
+
+        </div>
+        <div id="battle-box">
+            <p class="text-mensaje">Man v/s Machine</p>
+        </div>
+        <div id="img-pc-elige" class="battle-box">
+        </div>
+        <p id="msj-batalla" class="text-mensaje"></p>
+    </div>
+    <h2>Elije una Opción</h2>
+
+    <!--elegir intentos de jugada-->
+    <div>
+        <label for="intentos">Cantidad de Intentos:</label>
+        <input type="number" id="intentos" name="intentos" min="1" value="1">
+        <!--Botones de Ataque-->
+        <img id="btn-piedra" class="btn-ataque" src="./assets/img/piedra.jpg" alt="piedra con mano">
+        <img id="btn-papel" class="btn-ataque" src="./assets/img/papel.jpg" alt="papel con mano">
+        <img id="btn-tijera" class="btn-ataque" src="./assets/img/tijera.jpg" alt="tijera con mano">
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
